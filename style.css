@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(222, 196, 255);
+}
+
+label{
+    color: rgb(40, 13, 116);
+    font-weight: bold;
+
+}
+
+option{
+    background-color: rgb(195, 223, 252);
+    color: rgb(40, 13, 116);
+    font-weight: bold;
+
+}
+
+.op_estados{
+    margin-top: 20%;
+    margin-left: 35%;
+    font-size: 200%;
+}
+
+.op_cidades{
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 200%;
+}
+
+#estados, #cidades{
+    color: rgb(40, 13, 116);
+    background-color: rgb(195, 223, 252);
+    font-weight: bold;
+    font-size: 50%;
+    border: 1px solid rgb(40, 13, 116);
+}
+#estados:hover, #cidades:hover{
+    color: blueviolet;
+    background-color: rgb(222, 196, 255);
+    border: 1px solid rgb(40, 13, 116);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estados do Brasil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tudo">
+        <div class="op_estados">
+            <label for="estados">Selecione um estado:</label>
+            <select id="estados" onchange="getCidades()"> <!-- onchange = detecta quando o usuário escolhe uma nova opção-->
+            <option value="">Selecione um estado</option>
+        </select>
+        </div>
+
+        <div class="op_cidades">
+            <label for="cidades">Selecione uma cidade:</label>
+            <select id="cidades">
+            <option value="">Selecione uma cidade</option>
+        </select>
+        </div>
+    
+        <div id="informacoes"></div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
